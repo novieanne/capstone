@@ -22,7 +22,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
                 >
                     X
                 </button>
-                <div className='bg-white p-6 rounded-sm'>{children}</div>
+                <div className='bg-white p-6 rounded-sm  '>{children}</div>
             </div>    
         </div>
     );

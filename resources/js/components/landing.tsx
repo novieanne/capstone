@@ -1,7 +1,7 @@
 
 import { usePage } from '@inertiajs/react';
 import AboutUs from '@/components/aboutUs';
-import LandingNav from '@/components/nav-header';
+import LandingNav from '@/components/nav-welcome';
 import ContactUs from './contactUs';
 import Login from '../pages/auth/login';
 import Register from '@/pages/auth/register';

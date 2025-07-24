@@ -17,7 +17,6 @@ export default function Pagination({
 }: PaginationProps) {
   const currentTab = new URLSearchParams(window.location.search).get('tab') || 'list';
 
-  // Append current tab to all pagination links
   const appendTab = (url: string) => {
     if (!url) return '';
     const hasQuery = url.includes('?');

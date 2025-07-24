@@ -1,5 +1,5 @@
 import { Head, Link, useForm } from '@inertiajs/react';
-import LandingNav from '@/components/nav-header';
+import LandingNav from '@/components/nav-welcome';
 import { route } from 'ziggy-js';
 import { FormEventHandler } from 'react';
 import InputError from '@/components/input-error';
